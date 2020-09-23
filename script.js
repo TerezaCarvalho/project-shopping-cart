@@ -36,7 +36,7 @@ function createProductItemElement({ sku, name, image }) {
 
 // function getSkuFromProductItem(item) {
 //   return item.querySelector('span.item__sku').innerText;
-// }
+// } // Função não usada no projeto.
 
 function cartItemClickListener(event) {
   event.target.remove();
